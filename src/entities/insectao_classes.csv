@@ -1,2 +1,18 @@
 ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
-OPSO:0000001,Class,sample class,'continuant',,This is meant only as an example of how to create new classes.,,,,
+INSECTAO:00000001,Class,sclerite,,,,,,,
+INSECTAO:00000002,Class,plate-sclerite,,,,,,,
+INSECTAO:00000003,Class,ring-sclerite,,,,,,,
+INSECTAO:00000004,Class,spine,,,,,,,
+INSECTAO:00000005,Class,spur,,,,,,,
+INSECTAO:00000006,Class,setae,,,,obo:FBbt_00007325,,,
+INSECTAO:00000007,Class,muscle,,,,,,,
+INSECTAO:00000008,Class,apodeme,,,,,,,
+INSECTAO:00000009,Class,conjuctiva,,,,,,,
+INSECTAO:00000010,Class,sulcus,,,,,,,
+INSECTAO:00000011,Class,carina,,,,,,,
+INSECTAO:00000012,Class,acantha,,,trichome,obo:FBbt_00007325,,,
+INSECTAO:00000013,Class,sclerotized area,,,,,,,y
+INSECTAO:00000014,Class,protusion,,,,,,,y
+INSECTAO:00000015,Class,solid protusion,,,,,,,y
+INSECTAO:00000016,Class,evagination,,,,,,,y
+INSECTAO:00000017,Class,invagination of cuticle,,,,,,,y
