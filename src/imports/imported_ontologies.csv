@@ -1,0 +1,5 @@
+Name,IRI,Entities file,Ignore
+CARO,http://purl.obolibrary.org/obo/caro.owl,,
+HAO,http://purl.obolibrary.org/obo/hao/2016-05-18/hao.owl,,
+PATO,http://purl.obolibrary.org/obo/pato/releases/2018-03-28/pato.owl,,
+BSPO, http://purl.obolibrary.org/obo/bspo/releases/2014-02-03/bspo.owl,bspo_entities.csv,
