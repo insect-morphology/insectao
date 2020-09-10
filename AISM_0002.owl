@@ -3143,6 +3143,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/imiko/ontologies/2019/1/AISM#second_valvifer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/imiko/ontologies/2019/1/AISM#second_valvifer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM:0000091"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015">
