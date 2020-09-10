@@ -2422,12 +2422,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM:0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM:0000043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM:0000088"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM:0000016"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spur</rdfs:label>
     </owl:Class>
     
