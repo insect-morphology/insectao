@@ -3086,6 +3086,60 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AISM:000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM:000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM:0000091"/>
+        <rdfs:label xml:lang="en">first valvifer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM:000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM:000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM:0000091"/>
+        <rdfs:label xml:lang="en">tarsal claw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM:000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM:000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM:0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM:0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM:0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">prepectus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM:000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM:000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ZFA_0005145"/>
+        <rdfs:label xml:lang="en">occlusor muslcle of the anterior thoracic spiralce</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015">
@@ -3136,9 +3190,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:125 -->
+    <!-- http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000125 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:125">
+    <owl:Class rdf:about="http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM:0000091"/>
         <rdfs:label>second valvifer</rdfs:label>
     </owl:Class>
