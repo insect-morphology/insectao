@@ -3379,7 +3379,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002150"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM:0000136"/>
             </owl:Restriction>
         </rdfs:subClassOf>
