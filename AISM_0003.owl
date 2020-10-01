@@ -22,6 +22,8 @@ Annotations:
 AnnotationProperty: <http://purl.obolibrary.org/obo/IAO_0000115>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "IAO_0000115"@en,
         rdfs:label "definition"@en
     
     
@@ -41,9 +43,6 @@ AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#id>
 
     
 AnnotationProperty: <http://www.geneontology.org/formats/oboInOwl#version>
-
-    
-AnnotationProperty: Sensu
 
     
 AnnotationProperty: dc:description
@@ -144,6 +143,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/BSPO_0000096>
 ObjectProperty: <http://purl.obolibrary.org/obo/BSPO_0000098>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "X dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly)."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000098",
         rdfs:label "dorsal to"
     
     InverseOf: 
@@ -175,6 +176,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/BSPO_0000102>
 ObjectProperty: <http://purl.obolibrary.org/obo/BSPO_0000106>
 
     Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000106"@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "On the opposite side from. For example, the left arm is contralateral to the right arm (and the right leg)."@en,
         rdfs:label "contralateral to"
     
     Characteristics: 
@@ -184,6 +187,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/BSPO_0000106>
 ObjectProperty: <http://purl.obolibrary.org/obo/RO_0000052>
 
     Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#id> "A relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "RO:0000052"@en,
         rdfs:label "inhers in"
     
     InverseOf: 
@@ -242,6 +247,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002008>
 ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002150>
 
     Annotations: 
+        <http://www.geneontology.org/formats/oboInOwl#id> "RO:0002150"@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "X continuous_with Y if and only if X and Y share a fiat boundary."@en,
         rdfs:label "continuous with"
     
     Characteristics: 
@@ -251,6 +258,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002150>
 ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002219>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "X surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "RO:0002219"@en,
         rdfs:label "surrounded by"
     
     InverseOf: 
@@ -271,6 +280,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002220>
 ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002221>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Inverse of surrounded by."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "RO:0002221"@en,
         rdfs:label "surrounds"
     
     InverseOf: 
@@ -280,6 +291,8 @@ ObjectProperty: <http://purl.obolibrary.org/obo/RO_0002221>
 ObjectProperty: <http://purl.obolibrary.org/obo/RO_0003001>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A produced_by b if some process that occurs_in b has_output a."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "RO:0003001"@en,
         rdfs:label "produced by"
     
     
@@ -295,6 +308,7 @@ ObjectProperty: <http://purl.obolibrary.org/obo/fma#bounds>
 ObjectProperty: <http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale."@en,
         rdfs:label "decreased in magnitude relative to"
     
     
@@ -311,14 +325,22 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000001>
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/CARO_0000040>,
-        <http://purl.obolibrary.org/obo/RO_0002221> some <http://purl.obolibrary.org/obo/CARO_0000066>,
-        <http://purl.obolibrary.org/obo/RO_0003001> some <http://purl.obolibrary.org/obo/CARO_0000066>
+        <http://purl.obolibrary.org/obo/RO_0002221> some <http://purl.obolibrary.org/obo/CARO_0000066>
     
     
 Class: <http://purl.obolibrary.org/obo/AISM:0000002>
 
     Annotations: 
         rdfs:label "first valvifer"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/AISM:0000091>
+    
+    
+Class: <http://purl.obolibrary.org/obo/AISM:0000003>
+
+    Annotations: 
+        rdfs:label "second valvifer"
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/AISM:0000091>
@@ -544,7 +566,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000021>
 Class: <http://purl.obolibrary.org/obo/AISM:0000022>
 
     Annotations: 
-        rdfs:label "metfurca"
+        rdfs:label "metafurca"
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/AISM:0000018>,
@@ -589,6 +611,15 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000025>
     SubClassOf: 
         <http://purl.obolibrary.org/obo/AISM:0000017>,
         <http://purl.obolibrary.org/obo/RO_0000053> some <http://purl.obolibrary.org/obo/PATO_0000402>
+    
+    
+Class: <http://purl.obolibrary.org/obo/AISM:0000026>
+
+    Annotations: 
+        rdfs:label "genital opening"^^rdfs:Literal
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/CARO_0000005>
     
     
 Class: <http://purl.obolibrary.org/obo/AISM:0000027>
@@ -744,9 +775,8 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000036>
 Class: <http://purl.obolibrary.org/obo/AISM:0000037>
 
     Annotations: 
-        <http://purl.obolibrary.org/obo/IAO_0000115> "surface of cuticule folded back on itself forming a cavity"@en,
         <http://www.geneontology.org/formats/oboInOwl#id> "AISM:0000037"@en,
-        rdfs:label "cuticular invagination"^^xsd:string
+        rdfs:label "invagination"^^xsd:string
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/UBERON_0000466>
@@ -758,9 +788,8 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000037>
 Class: <http://purl.obolibrary.org/obo/AISM:0000038>
 
     Annotations: 
-        <http://purl.obolibrary.org/obo/IAO_0000115> "protrusion of the surface of the cuticule"@en,
         <http://www.geneontology.org/formats/oboInOwl#id> "AISM:0000038"@en,
-        rdfs:label "cuticular evagination"^^xsd:string
+        rdfs:label "evagination"^^xsd:string
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/UBERON_0000466>
@@ -1299,12 +1328,10 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000087>
 Class: <http://purl.obolibrary.org/obo/AISM:0000088>
 
     Annotations: 
-        
-            Annotations: Sensu "Snodgrass 1936"
-        rdfs:label "cuticular evagination"
+        rdfs:label "cuticular evagination"@en
     
     SubClassOf: 
-        <http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015>,
+        <http://purl.obolibrary.org/obo/AISM:0000015>,
         <http://purl.obolibrary.org/obo/RO_0002008> some <http://purl.obolibrary.org/obo/AISM:0000038>
     
     
@@ -1314,7 +1341,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000089>
         rdfs:label "solid cuticular protrusion"
     
     SubClassOf: 
-        <http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015>,
+        <http://purl.obolibrary.org/obo/AISM:0000015>,
         not (<http://purl.obolibrary.org/obo/RO_0002008> some <http://purl.obolibrary.org/obo/AISM:0000038>),
         <http://purl.obolibrary.org/obo/RO_0000053> some <http://purl.obolibrary.org/obo/PATO_0000591>
     
@@ -1602,13 +1629,6 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000115>
 Class: <http://purl.obolibrary.org/obo/AISM:0000116>
 
     Annotations: 
-        <http://purl.obolibrary.org/obo/IAO_0000115> "'bearer of' some cylindrical and
-'branching cuticular invagination' and
-'part of' some cuticle and
-'coincident with' some 
-    (invagination
-     and ('part of' some epithelium)) and
-'bearer of' some branched"@en,
         <http://purl.obolibrary.org/obo/IAO_0000115> "AISM:0000116"@en,
         rdfs:label "gland duct"
     
@@ -1620,13 +1640,6 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000116>
 Class: <http://purl.obolibrary.org/obo/AISM:0000117>
 
     Annotations: 
-        <http://purl.obolibrary.org/obo/IAO_0000115> "'bearer of' some cylindrical and
-'branching cuticular invagination' and
-'part of' some cuticle and
-'coincident with' some 
-    (invagination
-     and ('part of' some epithelium)) and
-'bearer of' some branched"@en,
         <http://www.geneontology.org/formats/oboInOwl#id> "AISM:0000117"@en,
         rdfs:label "malphigian tube"
     
@@ -1641,6 +1654,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000118>
         
             Annotations: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Snodgrass, R. E. Principles of Insect Morphology. Cornell University Press, 1993. https://www.jstor.org/stable/10.7591/j.ctv1nhm1j."
         <http://purl.obolibrary.org/obo/IAO_0000115> "The breathing tubes formed as multicellular invaginations of the ectoderm."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "AISM:0000118"@en,
         rdfs:label "trachea"
     
     SubClassOf: 
@@ -1910,7 +1924,20 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000146>
         <http://purl.obolibrary.org/obo/RO_0002150> some <http://purl.obolibrary.org/obo/AISM:0000102>
     
     
-Class: <http://purl.obolibrary.org/obo/AISM:000135>
+Class: <http://purl.obolibrary.org/obo/AISM:0000147>
+
+    Annotations: 
+        rdfs:label "cuticular protrusion"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
+        <http://purl.obolibrary.org/obo/RO_0002008> some 
+            (<http://purl.obolibrary.org/obo/AISM:0000122>
+             and (<http://purl.obolibrary.org/obo/RO_0000053> some <http://purl.obolibrary.org/obo/PATO_0001355>))
+    
+    
+Class: <http://purl.obolibrary.org/obo/AISM:0000148>
 
     Annotations: 
         rdfs:label "fovea"@en
@@ -1924,6 +1951,8 @@ Class: <http://purl.obolibrary.org/obo/AISM:000135>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000006>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Fiat anatomical region extending a short distance from the boundary of an object inwards."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000006"@en,
         rdfs:label "anatomical margin"
     
     SubClassOf: 
@@ -1933,6 +1962,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000006>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000033>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical region located deep within an organism or structure."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000033"@en,
         rdfs:label "deep region"
     
     SubClassOf: 
@@ -1942,6 +1973,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000033>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000042>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the antero-medial region of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000042"@en,
         rdfs:label "anteromedian margin"
     
     SubClassOf: 
@@ -1951,6 +1984,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000042>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000046>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the postero-medial region of the body or body part"@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000046"@en,
         rdfs:label "posteromedian margin"
     
     SubClassOf: 
@@ -1960,16 +1995,42 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000046>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000054>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An anatomical region bounded by a plane perpendicular to an axis through the middle."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000054"@en,
         rdfs:label "anatomical side"
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/BSPO_0000070>
     
     
+Class: <http://purl.obolibrary.org/obo/BSPO_0000055>
+
+    Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An anatomical region that is the entire part of an anatomical structure anterior to a transverse plane and bounded on one side by the same transverse plane."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000055"@en,
+        rdfs:label "anterior side"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSPO_0000054>
+    
+    
 Class: <http://purl.obolibrary.org/obo/BSPO_0000063>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An anatomical region that is the entire part of an anatomical structure dorsal to a horizontal plane and bounded on one side by the same transverse plane."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000063"@en,
         rdfs:label "dorsal side"
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSPO_0000054>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSPO_0000068>
+
+    Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An anatomical region that is the entire part of an anatomical structure ventral to a horizontal plane and bounded on one side by the same horizontal plane."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000068"@en,
+        rdfs:label "ventral side"@en
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/BSPO_0000054>
@@ -1978,6 +2039,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000063>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000069>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical region that overlaps the dorsal and medial regions of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000069"@en,
         rdfs:label "dorsomedial region"
     
     SubClassOf: 
@@ -1998,6 +2061,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000070>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000074>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical region located basally on the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000074"@en,
         rdfs:label "basal region"
     
     SubClassOf: 
@@ -2007,7 +2072,20 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000074>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000080>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical region that overlaps the dorsal and lateral regions of a body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000080"@en,
         rdfs:label "dorsolateral region"
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSPO_0000070>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSPO_0000082>
+
+    Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical region laterally located on the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000082"@en,
+        rdfs:label "lateral region"@en
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/BSPO_0000070>
@@ -2016,6 +2094,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000080>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000085>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical region that overlaps the ventral and lateral regions of a body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000085"@en,
         rdfs:label "ventrolateral region"
     
     SubClassOf: 
@@ -2025,6 +2105,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000085>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000112>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "The region corresponding to the ventral region of the entity, towards the midline."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000112"@en,
         rdfs:label "ventro-medial region"
     
     SubClassOf: 
@@ -2034,6 +2116,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000112>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000671>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the anterior side of a body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000671"@en,
         rdfs:label "anterior margin"
     
     SubClassOf: 
@@ -2043,6 +2127,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000671>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000672>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the posterior side of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000672"@en,
         rdfs:label "posterior margin"
     
     SubClassOf: 
@@ -2052,6 +2138,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000672>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000677>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the proximal region of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000677"@en,
         rdfs:label "proximal margin"
     
     SubClassOf: 
@@ -2061,7 +2149,20 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000677>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000678>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the distal side of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000678"@en,
         rdfs:label "distal margin"
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/BSPO_0000006>
+    
+    
+Class: <http://purl.obolibrary.org/obo/BSPO_0000682>
+
+    Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the lateral side of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO_0000682"@en,
+        rdfs:label "lateral margin"@en
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/BSPO_0000006>
@@ -2070,6 +2171,8 @@ Class: <http://purl.obolibrary.org/obo/BSPO_0000678>
 Class: <http://purl.obolibrary.org/obo/BSPO_0000684>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Anatomical margin that is located on the ventral side of the body or body part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "BSPO:0000684"@en,
         rdfs:label "ventral margin"
     
     SubClassOf: 
@@ -2090,6 +2193,8 @@ Class: <http://purl.obolibrary.org/obo/CARO_0000005>
 Class: <http://purl.obolibrary.org/obo/CARO_0000040>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An anatomical structure that has no cells or cell parts as a part."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "CARO_0000040"@en,
         rdfs:label "acellular anatomical structure"
     
     SubClassOf: 
@@ -2099,6 +2204,8 @@ Class: <http://purl.obolibrary.org/obo/CARO_0000040>
 Class: <http://purl.obolibrary.org/obo/CARO_0000066>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "CARO:0000066"@en,
         rdfs:label "epithelium"
     
     SubClassOf: 
@@ -2108,6 +2215,8 @@ Class: <http://purl.obolibrary.org/obo/CARO_0000066>
 Class: <http://purl.obolibrary.org/obo/CARO_0002001>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Connected anatomical system that forms a barrier between an animal and its environment - generally consisting of an epidermis, which may be covered by some acellular structure."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "CARO:0002001"@en,
         rdfs:label "integumentary system"
     
     SubClassOf: 
@@ -2117,6 +2226,8 @@ Class: <http://purl.obolibrary.org/obo/CARO_0002001>
 Class: <http://purl.obolibrary.org/obo/CL_0000066>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "CL:0000066"@en,
         rdfs:label "epithelial cell"
     
     SubClassOf: 
@@ -2159,6 +2270,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0000402>
 Class: <http://purl.obolibrary.org/obo/PATO_0000404>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A shape quality inhering in a bearer by virtue of the bearer's being curled or wound (especially in concentric rings or spirals)."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0000404"@en,
         rdfs:label "coiled"
     
     SubClassOf: 
@@ -2168,6 +2281,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0000404>
 Class: <http://purl.obolibrary.org/obo/PATO_0000407>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A quality inhering in a bearer by virtue of the bearer's having a horizontal surface without a slope, tilt, or curvature."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0000407"@en,
         rdfs:label "flat"
     
     SubClassOf: 
@@ -2177,6 +2292,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0000407>
 Class: <http://purl.obolibrary.org/obo/PATO_0000411>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0000411"@en,
         rdfs:label "circular"
     
     SubClassOf: 
@@ -2186,6 +2303,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0000411>
 Class: <http://purl.obolibrary.org/obo/PATO_0000591>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A thickness which is relatively high."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0000591"@en,
         rdfs:label "increased thickness"
     
     SubClassOf: 
@@ -2195,6 +2314,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0000591>
 Class: <http://purl.obolibrary.org/obo/PATO_0000592>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A thickness which is relatively low."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0000592"@en,
         rdfs:label "decreased thickness"@en
     
     SubClassOf: 
@@ -2204,6 +2325,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0000592>
 Class: <http://purl.obolibrary.org/obo/PATO_0001031>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A physical quality inhering in a bearer by virtue of the bearer's disposition to recover its size and shape after deformation in any way."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001031"@en,
         rdfs:label "elasticity"
     
     SubClassOf: 
@@ -2213,6 +2336,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001031>
 Class: <http://purl.obolibrary.org/obo/PATO_0001154>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A quality inhering in a bearer by virtue of the bearer's length being notably higher than its width."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001154"@en,
         rdfs:label "elongated"
     
     SubClassOf: 
@@ -2222,6 +2347,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001154>
 Class: <http://purl.obolibrary.org/obo/PATO_0001171>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "An elasticity quality inhering in a bearer by virtue of the bearer's ability to recover its size and shape after deformation in any way."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001171"@en,
         rdfs:label "elastic"
     
     SubClassOf: 
@@ -2231,6 +2358,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001171>
 Class: <http://purl.obolibrary.org/obo/PATO_0001355>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A shape quality that obtains by virtue of the bearer having inward facing edges; having a surface or boundary that curves or bulges outward, as the exterior of a sphere."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001355"@en,
         rdfs:label "convex"
     
     SubClassOf: 
@@ -2240,6 +2369,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001355>
 Class: <http://purl.obolibrary.org/obo/PATO_0001369>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A shape quality inhering in a colony by virtue of the bearer's appearing above the medium surface with terraced edges."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001369"@en,
         rdfs:label "raised"
     
     SubClassOf: 
@@ -2249,6 +2380,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001369>
 Class: <http://purl.obolibrary.org/obo/PATO_0001543>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001543"@en,
         rdfs:label "flexibility"
     
     SubClassOf: 
@@ -2258,6 +2391,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001543>
 Class: <http://purl.obolibrary.org/obo/PATO_0001857>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A shape quality in a bearer by virtue of the bearer's curving inward."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001857"@en,
         rdfs:label "concave"
     
     SubClassOf: 
@@ -2267,6 +2402,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001857>
 Class: <http://purl.obolibrary.org/obo/PATO_0001873>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0001873"@en,
         rdfs:label "cylindrical"
     
     SubClassOf: 
@@ -2276,6 +2413,8 @@ Class: <http://purl.obolibrary.org/obo/PATO_0001873>
 Class: <http://purl.obolibrary.org/obo/PATO_0002539>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A shape quality inhering in a bearer by virtue of the bearer's having a shape like a ring (a circular shape enclosing a space)."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "PATO_0002539"@en,
         rdfs:label "ring shaped"
     
     SubClassOf: 
@@ -2316,6 +2455,8 @@ Class: <http://purl.obolibrary.org/obo/UBERON_0000466>
 Class: <http://purl.obolibrary.org/obo/UBERON_0000955>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "UBERON:0000955"@en,
         rdfs:label "brain"
     
     SubClassOf: 
@@ -2333,40 +2474,11 @@ Class: <http://purl.obolibrary.org/obo/UBERON_0001062>
 Class: <http://purl.obolibrary.org/obo/ZFA_0005145>
 
     Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "Portion of tissue composed of contractile fibers."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "ZFA:0005145"@en,
         rdfs:label "muscle"
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/UBERON_0000465>
-    
-    
-Class: <http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000003>
-
-    Annotations: 
-        rdfs:label "second valvifer"
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/AISM:0000091>
-    
-    
-Class: <http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000015>
-
-    Annotations: 
-        rdfs:label "cuticular protrusion"^^xsd:string
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
-        <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
-        <http://purl.obolibrary.org/obo/RO_0002008> some 
-            (<http://purl.obolibrary.org/obo/AISM:0000122>
-             and (<http://purl.obolibrary.org/obo/RO_0000053> some <http://purl.obolibrary.org/obo/PATO_0001355>))
-    
-    
-Class: <http://www.semanticweb.org/imiko/ontologies/2019/1/AISM:0000026>
-
-    Annotations: 
-        rdfs:label "genital opening"^^rdfs:Literal
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000005>
     
     
