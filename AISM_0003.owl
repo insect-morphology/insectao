@@ -332,6 +332,25 @@ Class: <http://purl.obolibrary.org/obo/AEO_0000106>
         <http://purl.obolibrary.org/obo/RO_0001019> some <http://purl.obolibrary.org/obo/AISM:0000044>
     
     
+Class: <http://purl.obolibrary.org/obo/AISM#0000149>
+
+    Annotations: 
+        rdfs:label "pronoto-mesopectal conjunctiva"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/AISM:0000005>,
+        <http://purl.obolibrary.org/obo/RO_0002150> some <http://purl.obolibrary.org/obo/AISM:0000064>
+    
+    
+Class: <http://purl.obolibrary.org/obo/AISM#0000150>
+
+    Annotations: 
+        rdfs:label "basal protrochanteral conjunctiva"@en
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/AISM:0000016>
+    
+    
 Class: <http://purl.obolibrary.org/obo/AISM:0000001>
 
     Annotations: 
