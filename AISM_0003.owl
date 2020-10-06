@@ -338,7 +338,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000001>
         rdfs:label "cuticle"
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/RO_0002221> some <http://purl.obolibrary.org/obo/CARO_0000066>
     
     
@@ -366,7 +366,6 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000004>
         rdfs:label "mesonotum"@en
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
         <http://purl.obolibrary.org/obo/AISM:0000043>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/HAO_0001015>,
         <http://purl.obolibrary.org/obo/BSPO_0000099> some <http://purl.obolibrary.org/obo/AISM:0000064>,
@@ -379,7 +378,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000005>
         rdfs:label "conjunctiva"^^xsd:string
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
         <http://purl.obolibrary.org/obo/RO_0000053> some 
             (<http://purl.obolibrary.org/obo/PATO_0001543>
@@ -528,7 +527,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000017>
         rdfs:label "cuticular invagination"
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
         <http://purl.obolibrary.org/obo/RO_0002008> some 
             (<http://purl.obolibrary.org/obo/AISM:0000037>
@@ -663,7 +662,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000029>
         rdfs:label "articulation"^^xsd:string
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/BFO_0000051> some 
             (<http://purl.obolibrary.org/obo/AISM:0000043>
              and (<http://purl.obolibrary.org/obo/BFO_0000051> some 
@@ -819,7 +818,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000039>
         rdfs:label "cuticular depression"
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
         <http://purl.obolibrary.org/obo/RO_0002008> some 
             (<http://purl.obolibrary.org/obo/AISM:0000122>
@@ -863,7 +862,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000043>
         rdfs:label "sclerite"^^xsd:string
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
         <http://purl.obolibrary.org/obo/RO_0000053> some 
             (<http://purl.obolibrary.org/obo/PATO_0001543>
@@ -1359,7 +1358,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000088>
         rdfs:label "cuticular evagination"@en
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/AISM:0000015>,
+        <http://purl.obolibrary.org/obo/AISM:0000147>,
         <http://purl.obolibrary.org/obo/RO_0002008> some <http://purl.obolibrary.org/obo/AISM:0000038>
     
     
@@ -1369,7 +1368,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000089>
         rdfs:label "solid cuticular protrusion"
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/AISM:0000015>,
+        <http://purl.obolibrary.org/obo/AISM:0000147>,
         not (<http://purl.obolibrary.org/obo/RO_0002008> some <http://purl.obolibrary.org/obo/AISM:0000038>),
         <http://purl.obolibrary.org/obo/RO_0000053> some <http://purl.obolibrary.org/obo/PATO_0000591>
     
@@ -1700,7 +1699,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000119>
         rdfs:label "elastic cuticle"
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/RO_0001019> some <http://purl.obolibrary.org/obo/PR_Q9V7U0>
     
     
@@ -1719,7 +1718,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000121>
         rdfs:label "prepectus"@en
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/AISM:0000043>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
         <http://purl.obolibrary.org/obo/RO_0002150> some <http://purl.obolibrary.org/obo/AISM:0000055>,
         <http://purl.obolibrary.org/obo/RO_0002150> some <http://purl.obolibrary.org/obo/AISM:0000064>
@@ -1960,7 +1959,7 @@ Class: <http://purl.obolibrary.org/obo/AISM:0000147>
         rdfs:label "cuticular protrusion"@en
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/CARO_0000040>,
+        <http://purl.obolibrary.org/obo/FBbt_00007284>,
         <http://purl.obolibrary.org/obo/BFO_0000050> some <http://purl.obolibrary.org/obo/AISM:0000001>,
         <http://purl.obolibrary.org/obo/RO_0002008> some 
             (<http://purl.obolibrary.org/obo/AISM:0000122>
@@ -2220,17 +2219,6 @@ Class: <http://purl.obolibrary.org/obo/CARO_0000005>
         <http://purl.obolibrary.org/obo/UBERON_0000466>
     
     
-Class: <http://purl.obolibrary.org/obo/CARO_0000040>
-
-    Annotations: 
-        <http://purl.obolibrary.org/obo/IAO_0000115> "An anatomical structure that has no cells or cell parts as a part."@en,
-        <http://www.geneontology.org/formats/oboInOwl#id> "CARO_0000040"@en,
-        rdfs:label "acellular anatomical structure"
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/UBERON_0000465>
-    
-    
 Class: <http://purl.obolibrary.org/obo/CARO_0000066>
 
     Annotations: 
@@ -2239,7 +2227,7 @@ Class: <http://purl.obolibrary.org/obo/CARO_0000066>
         rdfs:label "epithelium"
     
     SubClassOf: 
-        <http://purl.obolibrary.org/obo/UBERON_0000465>
+        <http://purl.obolibrary.org/obo/FBbt_00007284>
     
     
 Class: <http://purl.obolibrary.org/obo/CARO_0002001>
@@ -2273,6 +2261,17 @@ Class: <http://purl.obolibrary.org/obo/CL_0000066>
     
     SubClassOf: 
         <http://purl.obolibrary.org/obo/UBERON_0000465>
+    
+    
+Class: <http://purl.obolibrary.org/obo/FBbt_00007284>
+
+    Annotations: 
+        <http://purl.obolibrary.org/obo/IAO_0000115> "A region of cuticle and its underlying epidermis."@en,
+        <http://www.geneontology.org/formats/oboInOwl#id> "FBbt_00007284"@en,
+        rdfs:label "region of integument"
+    
+    SubClassOf: 
+        <http://purl.obolibrary.org/obo/CARO_0002001>
     
     
 Class: <http://purl.obolibrary.org/obo/FMA_242980>
